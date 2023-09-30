@@ -892,6 +892,10 @@ h6 {
   margin-bottom: 40px;
 }
 
+#descriptions .form {
+  width: 80%;
+}
+
 #descriptions .form #sendmessage {
   color: #007bff;
   border: 1px solid #007bff;
