@@ -15,7 +15,6 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
@@ -79,7 +78,7 @@
         <li><a href="contact.html">Contact Us</a></li>
           <li>
             <div class="signButton">
-              <button>Sign In</button>
+              <!-- <button>Sign In</button> -->
               <a href="register.html"><button >Create an Account</button></a>
             </div>
           </li>
@@ -130,134 +129,32 @@
           
           <div class="col-md-10 mx-auto col-lg-5">
             <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
-
-            <div class="form-floating mb-3">
-              <select class="form-control" id="sel1">
-                <option>Admission/Application Essay</option>
-                <option>Annotated Bibliography</option>
-                <option>Argumentative Essay</option>
-                <option>Article</option>
-                <option>Article Review/Critique</option>
-                <option>Assessment</option>
-                <option>Assignment</option>
-                <option>Book Report/Review</option>
-                <option>Business Plan</option>
-                <option>Capstone Project</option>
-                <option>Case Study</option>
-                <option>Coursework</option>
-                <option>Cover Letter Writing</option>
-                <option>Dissertation</option>
-                <option>Dissertation Chapter - Abstract</option>
-                <option>Dissertation Chapter - Discussion</option>
-                <option>Dissertation Chapter - Introduction Chapter</option>
-                <option>Dissertation Chapter - Literature Review</option>
-                <option>Dissertation Chapter - Methodology</option>
-                <option>Dissertation Chapter - Results</option>
-                <option>Editing</option>
-                <option>Essay</option>
-                <option>Formatting</option>
-                <option>Math Problem</option>
-                <option>Movie Review</option>
-                <option>Multiple Choice Questions</option>
-                <option>Research Paper</option>
-                <option>Research Proposal</option>
-                <option>Scholarship Essay</option>
-                <option>Term Paper</option>
-                <option>Thesis</option>
-                <option>Thesis Proposal</option>
-                <option>Other</option>
-              </select>
-            </div>
-              
-            <div class="form-floating mb-3">
-              <select class="form-control" id="sel1">
-                <option>Undergraduate</option>
-                <option>Master</option>
-                <option>Ph.D.</option>
-              </select>
-            </div>
-            <div class="form-floating mb-3">
-              <select class="form-control" id="sel1">
-                <option>48 hours / Wed, Nov 01</option>
-                <option>3 hours / Fri, Dec 0</option>
-                <option>4 hours / Mon, Dec 0</option>
-                <option>5 hours / Tue, Dec 0</option>
-                <option>7 hours / Thurs, Dec 0</option>
-                <option>10 hours / Wed, Dec 0</option>
-                <option>14 hours / Tue, Dec 0</option>
-                <option>20 hours / Mon, Dec 0</option>
-                <option>30 hours / Fri, Dec 0</option>
-              </select>
-            </div>
-            
-            <div class="form-floating mb-3">
-              <select class="form-control" id="sel1">
-                <option>275 words / 1 page</option>
-                <option> words / 2 pages</option>
-                <option>550 words / 3 pages</option>
-                <option>825 words / 4 pages</option>
-                <option>1100 words / 5 pages</option>
-                <option>1375 words / 6 pages</option>
-                <option>1650 words / 7 pages</option>
-                <option>1925 words / 8 pages</option>
-                <option>2200 words / 9 pages</option>
-                <option>2750 words / 10 pages</option>
-                <option>3025 words / 11 pages</option>
-                <option>3300 words / 12 pages</option>
-                <option>3575 words / 13 pages</option>
-                <option>3850 words / 14 pages</option>
-                <option>4125 words / 15 pages</option>
-                <option>4400 words / 16 pages</option>
-                <option> 4675 / 16 pages</option>
-                <option>4950 words / 17 pages</option>
-                <option> other</option>
-                
-              </select>
-            </div>
-              
-              <div class="standPrice">
-                <div class="standtext">Standard price</div>
-                <span class="calc__price-number">$16.06</span>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="Enter email address">
+                <label for="floatingInput">Email address</label>
               </div>
-
-              <div class="specialPrice">
-
-                <div class="discountCalc">
-                  <div class="discountCalcText">
-                    <div style="color: #6dc000;">Special price <span>(Locked)</span></div>
-                    <div>Save on your first order!</div>
-                  </div>
-                  <div class="discountCalcNumber">$13.65</div>
-                </div>
-
-                <div class="formControl">
-                  <div class=" email">
-                    <label class="controlLabel" for="orderform-email"><span></span></label>
-                    <input name="email" type="email" placeholder="Enter email to unlock" value="">
-                  </div>
-                  <button type="submit"><span class="unlock-icon"></span>Unlock</button>
-                  <!-- <div>this</div> -->
-                </div>
-                <!-- <a href="/order?type_of_work=6&amp;level_work=1&amp;number_page=1&amp;urgency=12&amp;code=" target="_top" class="calc__btn">Order now</a> -->
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
               </div>
-              
-              
-              <button class="w-100 btn btn-lg " type="submit">Order Now</button>
-              <!-- <hr class="my-4"> -->
-
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <p class="text-body-secondary">Already have an account with us?</p>
+              <button class="w-100 btn btn-lg " type="submit">Sign In</button>
+              <hr class="my-4">
             </form>
-
-            
           </div>
-            
+        <!-- </div> -->
+
+
+
           
       </div>
     </div>
   </section><!-- #intro -->
-
-
-
-  
 
 
   <section class="container home ">

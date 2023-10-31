@@ -224,7 +224,7 @@ h6 {
   background: url("../img/home-bg3.avif") center bottom no-repeat ;
   background-size: cover;
   background-attachment: fixed;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 #intro .intro-overlay {
@@ -244,7 +244,7 @@ h6 {
 #intro .top {
   position: relative;
   background-color: #00000087;
-  padding: 60px 30px;
+  padding: 10px 30px;
   z-index: 222 ;
 }
 
@@ -310,6 +310,79 @@ form > .btn {
   border-color: #6dc000;
   color: #fff;
 }
+
+
+#intro .top .standPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin: 10px 0;
+  /* background-color: #86d9861b; */
+}
+
+#intro .top .standPrice span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#intro .top .specialPrice {
+  background-color: #000;
+  margin-bottom: 30px;
+}
+
+#intro .top .specialPrice .discountCalc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+#intro .top .specialPrice .discountCalcNumber {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#intro .top .specialPrice .formControl  {
+ display: flex;
+ gap: 5px;
+ /* background-color: #fff; */
+}
+#intro .top .specialPrice .formControl .controlLabel {
+ 
+}
+
+#intro .top .specialPrice .formControl input[type=email]  {
+  width: 255px;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  
+}
+
+#intro .top .specialPrice .formControl input[type=email]:focus  {
+  outline: none;
+}
+
+#intro .top .specialPrice .formControl button[type=submit]  {
+  width: 70px;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  background-color: #6dc000;
+}
+
+#intro .top .specialPrice .formControl button[type=submit]:focus  {
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
 
 
 .home {
