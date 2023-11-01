@@ -41,7 +41,7 @@
   Header
   ============================-->
   <header id="header" class="sticky-top ">
-    <div class="containerr">
+    <div class="heaerContainer">
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -52,7 +52,7 @@
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block ">
-        <ul class="flex-adjust">
+        <ul>
           <!-- <li class="active"><a href="index1.html">HOME</a></li> -->
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
@@ -78,14 +78,19 @@
           </li> -->
         <li><a href="contact.html">Contact Us</a></li>
           <li>
-            <div class="signButton">
-              <button>Sign In</button>
-              <a href="register.html"><button >Create an Account</button></a>
+            <div class="signButton ">
+              <a href="login.html"><button >Log In</button></a>
+              <a href="register.html"><button >Sign up</button></a>
             </div>
           </li>
         </ul>
+        
       </nav><!-- .main-nav -->
       
+      <div class="signButton nav">
+        <a href="login.html"><button >Log In</button></a>
+        <a href="register.html"><button >Sign up</button></a>
+      </div>
     </div>
   </header><!-- #header -->
 
@@ -96,6 +101,9 @@
 
 
   <section id="intro" class="clearfix">
+
+
+
     <div class="intro-overlay"></div>
 
     <div class="container top">
@@ -290,8 +298,15 @@
             
       <div class=" home-right col-lg-6">
         <!-- <div class="single-img"><img src="img/home-img-6.avif" width="270" height="570" alt="" class="img-responsive center-block"></div> -->
-        <div class="double-img"><img src="img/home-img-1.jpeg" width="270" height="270" alt="" class="img-responsive center-block"><img src="img/home-img-2.jpeg" width="270" height="270" alt="" class="img-responsive center-block"></div>
-        <div class="double-img"><img src="img/home-img-3.jpeg" width="270" height="270" alt="" class="img-responsive center-block"><img src="img/home-img-6.avif" width="270" height="270" alt="" class="img-responsive center-block"></div>
+        <div class="row">
+          <div class="homeRightImg"><img src="img/home-img-1.jpeg"  alt="" ></div>
+          <div class="homeRightImg"><img src="img/home-img-3.jpeg"  alt="" ></div>
+          <div class="homeRightImg"><img src="img/home-img-2.jpeg"  alt="" ></div>
+          <div class="homeRightImg"><img src="img/home-img-6.avif"  alt="" ></div>
+          <!-- <div class="double-img"><img src="img/home-img-1.jpeg" alt="" class="img-responsive center-block"><img src="img/home-img-2.jpeg" alt="" class="img-responsive center-block"></div>
+          <div class="double-img"><img src="img/home-img-3.jpeg" alt="" class="img-responsive center-block"><img src="img/home-img-6.avif" alt="" class="img-responsive center-block"></div> -->
+        </div>
+      
       </div>
 
 
@@ -324,9 +339,9 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="services.html">Services</a></li>
               <li><a href="#">Terms of service</a></li>
               <li><a href="#">Privacy policy</a></li>
             </ul>
@@ -380,7 +395,7 @@
   <!-- <div id="preloader"></div> -->
 
   <!-- JavaScript Libraries -->
-  <!-- <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
@@ -390,7 +405,7 @@
   <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script> -->
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
