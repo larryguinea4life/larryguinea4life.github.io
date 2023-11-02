@@ -1229,7 +1229,6 @@ form > .btn {
 
   .signButton.nav {
     display: none !important;
-    /* background-color: #007bff; */
   }
 }
 
@@ -1346,6 +1345,10 @@ form > .btn {
 
     width: 100%; 
     
+  }
+
+  .signButton.nav {
+    display: none !important;
   }
   
   
